@@ -6,15 +6,15 @@ A medida que vou progredindo em meus estudos front end sempre inicio um projeto 
 
 ## Capturas de tela
 
-![Header](img/cap1)
+![Header](src/img/cap1.png)
 
-![Seção 1](img/cap2)
+![Seção 1](src/img/cap2.png)
 
-![Seção 2](img/cap3)
+![Seção 2](src/img/cap3.png)
 
-![Seção 3](img/cap4)
+![Seção 3](src/img/cap4.png)
 
-![Footer](img/cap5)
+![Footer](src/img/cap5.png)
 
 ## Considerações:
 
