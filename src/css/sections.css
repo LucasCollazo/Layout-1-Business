@@ -1,0 +1,90 @@
+#quem-somos,
+#servicos {
+    width: 100%;
+    background-color: #DDE7E8;
+    padding: 32px 40px;
+}
+
+#quem-somos h1,
+#servicos h1 {
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 24px;
+}
+
+#equipe,
+footer {
+    width: 100%;
+    background-color: #212D35;
+    padding: 32px 40px;
+}
+
+#equipe h1,
+footer h1 {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 24px;
+}
+
+.quemsomos-content {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+}
+
+.quemsomos-content img {
+    width: max-content;
+    height: max-content;
+
+}
+
+.quemsomos-content p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container-equipe {
+    display: flex;
+    flex: 4;
+    gap: 24px;
+}
+
+.column-equipe {
+    width: 25%;
+    text-align: center;
+}
+
+.column-equipe img {
+    border-radius: 16px;
+}
+
+.column-equipe h2,
+.column-equipe p {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column-equipe p {
+    margin: auto;
+    text-align: justify;
+    width: 200px;
+}
+
+.container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-servicos {
+    display: flex;
+    flex: 1 0 50%;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.column-servicos p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}

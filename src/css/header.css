@@ -1,0 +1,77 @@
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/fundo1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topmenu {
+    width: 100%;
+    padding: 32px 40px;
+    text-align: right;
+}
+
+#topmenu a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#topmenu a:hover {
+    color: #5B89A4;
+}
+
+.container-top {
+    position: relative;
+    padding: 24px 40px;
+    width: 100%;
+}
+
+.container-top #shape1 {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top: 151px;
+    left: 0;
+    background-color: #5B89A4;
+    z-index: 1;
+}
+
+.top-content {
+    display: flex;
+    position: absolute;
+    width: calc(100% - 80px);
+    margin: auto;
+    z-index: 2;
+    justify-content: space-evenly;
+}
+
+.top-content img {
+    display: inline-block;
+    margin-top: 70px;
+    height: 180px;
+}
+
+.top-content h1 {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 151px;
+}
+
+.top-content button,
+.top-content p {
+    margin-top: 280px;
+}
+
+.top-content P {
+    color: #fff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
